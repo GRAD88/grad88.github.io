@@ -1,0 +1,101 @@
+.orange-container {
+	background-color: #ffdd99;
+}
+.orange-containr__content {
+	padding: 120px 0px 109px 0px;
+	max-width: 1103px;
+	margin: 0px auto;
+}
+.orange-content__text {
+	text-align: center;
+}
+.orange-content__title {
+	color: #393939;
+	font-family: "Titillium Web";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 29.91px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	&::after{
+		padding-top: 21px;
+		margin:0 auto;
+		width: 87px;
+		display: block;
+		content:"";
+      border-bottom:4px solid #e5c37f;
+	}
+}
+.orange-content__subtitle {
+	padding-top:23px;
+	margin: 0px auto;
+	max-width: 515px;
+	color: #393939;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.36px;
+}
+.orange-content__nav {
+	margin-top: 42px;
+	text-align: center;
+	& a{
+		padding:12px 25px;
+		color: #393939;
+		font-family: "Titillium Web";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 19.5px;
+		text-transform: uppercase;
+		letter-spacing: 0.36px;
+		background-color: rgba($color: #8071AF, $alpha: 1.0);
+	}
+	& a:hover{
+		background-color: white;
+	}
+}
+.orange-container__item {
+	max-width: 1103px;
+}
+.orange-flex__item {
+	flex-wrap: wrap;
+	padding: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.orange-flex__column{
+	padding-top: 64px;
+}
+.orange-flex__text{
+	padding-top: 32px;
+	color: #393939;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 19.5px;
+	text-transform: uppercase;
+	letter-spacing: 0.36px;
+}
+.orange-content__buttom{
+	margin-top:83px;
+	text-align: center;
+	& a{
+		border-radius: 50px;
+		background-color:#17c2a4 ;
+		padding: 28px 58px;
+		color: #ffffff;
+		font-family: "Titillium Web - Semi Bold";
+		font-size: 18px;
+		line-height: 26.19px;
+		text-transform: uppercase;
+		letter-spacing: 0.27px;
+		box-shadow: 0px 1px 20px 0px rgba(50, 50, 50, 0.64);
+	}
+	& a:hover{
+		box-shadow:0px 1px 20px 0px #05516A;
+		border-radius: 30px;
+		transition: 0.2s linear;
+	}
+}
