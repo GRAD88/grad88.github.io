@@ -1,0 +1,103 @@
+.section-bottom {
+	background-color: #3c5499;
+}
+.container {
+	padding: 120px 0px 115px 0px ;
+	max-width:938px;
+}
+.bottom__header {
+}
+.bottom__header-text {
+	text-align: center;
+}
+.bottom__header-title {
+	color: #ffffff;
+	font-family: "Titillium Web";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 29.91px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	&::after{
+		padding-top: 21px;
+		margin:0 auto;
+		width: 87px;
+		display: block;
+		content:"";
+      border-bottom:4px solid #273a71;
+	}
+}
+.bottom__header-subtitle {
+	padding-top: 23px;
+	color: #ffffff;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.36px;
+}
+.bottom__form {
+	display: flex;
+	justify-content: center;
+	margin-top: 76px;
+	margin: 0px auto;
+	text-align: center;
+}
+.yourname {
+	width: 414px;
+	height: 56px;
+	background-color: #273a71;
+}
+.youremail {
+	margin-left: 28px;
+	width: 414px;
+	height: 56px;
+	background-color: #273a71;
+}
+.textarea{
+	margin-top: 27px;
+	background-color:#273a71 ;
+	width: 860px;
+	height: 200px;
+}
+.input-text{
+	padding-top: 76px;
+}
+.bottom__buttom{
+	margin-top: 59px;
+	width: 293px;
+	height: 70px;
+	background-color: #30bae7;
+}
+.bottom__text-buttom{
+	color: #ffffff;
+	font-family: "Titillium Web - Semi Bold";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26.19px;
+	text-transform: uppercase;
+	letter-spacing: 0.27px;
+}
+.section__bottom-bottom {
+	background-color: #344b8e;
+}
+.bottom-bottom__container {
+	margin: 0px auto;
+	padding: 48px 0px 41px 0px;
+}
+.bottom__bottom-link {
+	display: flex;
+	justify-content: space-between;
+	& ul{
+		margin: 0px auto;
+	}
+	& a{
+		color: #ffffff;
+		font-family: "Titillium Web - Semi Bold";
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 29.91px;
+		letter-spacing: 0.48px;
+		padding-left: 50px;
+	}
+}
