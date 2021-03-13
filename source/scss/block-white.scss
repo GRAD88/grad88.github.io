@@ -1,10 +1,12 @@
 .white-container {
 	background-color: white;
+	overflow: hidden;
 }
 .white-container__content {
 	padding: 117px 0px 122px 0px;
 	max-width: 1000px;
 	margin: 0px auto;
+	overflow: hidden;
 }
 .white-content__text {
 	text-align: center;

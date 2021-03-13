@@ -77,6 +77,7 @@
 }
 
 .main-container__green {
+  overflow: hidden;
   max-width: 1033px;
   margin: 0 auto;
 }
@@ -157,6 +158,7 @@
 .content-center {
   background-color: #e7f1f8;
   padding: 119px 0px 127px 0px;
+  overflow: hidden;
 }
 
 .content-center__container {
@@ -248,12 +250,14 @@
 
 .white-container {
   background-color: white;
+  overflow: hidden;
 }
 
 .white-container__content {
   padding: 117px 0px 122px 0px;
   max-width: 1000px;
   margin: 0px auto;
+  overflow: hidden;
 }
 
 .white-content__text {
@@ -319,6 +323,7 @@
   padding: 120px 0px 109px 0px;
   max-width: 1103px;
   margin: 0px auto;
+  overflow: hidden;
 }
 
 .orange-content__text {
@@ -425,6 +430,7 @@
 
 .pink {
   background-color: #d74680;
+  overflow: hidden;
 }
 
 .container {
@@ -526,6 +532,7 @@
 
 .section-bottom {
   background-color: #3c5499;
+  overflow: hidden;
 }
 
 .container {
